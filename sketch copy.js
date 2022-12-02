@@ -6,8 +6,9 @@ b=random(50, 255);
 }
 
 function draw(){
-background(r,g,b);
-console.log('draw');
+background(255);
+//console.log('draw');
+text(accelerationX"+ "accelerationY", "+accelerationZ);
 }
 
 function deviceMoved(){
