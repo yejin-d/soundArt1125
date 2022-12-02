@@ -8,7 +8,7 @@ b=random(50, 255);
 function draw(){
 background(255);
 //console.log('draw');
-text(accelerationX"+ "accelerationY", "+accelerationZ);
+text(accelerationX+", "accelerationY", "+accelerationZ);
 }
 
 function deviceMoved(){
